@@ -69,33 +69,33 @@ include lib/OLED/CMakeFiles/OLED.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/OLED/CMakeFiles/OLED.dir/flags.make
 
-lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
-lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.obj: ../lib/OLED/OLED_1in3_c.c
-lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.obj: lib/OLED/CMakeFiles/OLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.obj -MF CMakeFiles/OLED.dir/OLED_1in3_c.c.obj.d -o CMakeFiles/OLED.dir/OLED_1in3_c.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_1in3_c.c
+lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
+lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj: ../lib/OLED/OLED_1in3_c.cpp
+lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj: lib/OLED/CMakeFiles/OLED.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj -MF CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj.d -o CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_1in3_c.cpp
 
-lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OLED.dir/OLED_1in3_c.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_1in3_c.c > CMakeFiles/OLED.dir/OLED_1in3_c.c.i
+lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OLED.dir/OLED_1in3_c.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_1in3_c.cpp > CMakeFiles/OLED.dir/OLED_1in3_c.cpp.i
 
-lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OLED.dir/OLED_1in3_c.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_1in3_c.c -o CMakeFiles/OLED.dir/OLED_1in3_c.c.s
+lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OLED.dir/OLED_1in3_c.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_1in3_c.cpp -o CMakeFiles/OLED.dir/OLED_1in3_c.cpp.s
 
-lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
-lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.obj: ../lib/OLED/OLED_2in23.c
-lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.obj: lib/OLED/CMakeFiles/OLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.obj -MF CMakeFiles/OLED.dir/OLED_2in23.c.obj.d -o CMakeFiles/OLED.dir/OLED_2in23.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_2in23.c
+lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
+lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.obj: ../lib/OLED/OLED_2in23.cpp
+lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.obj: lib/OLED/CMakeFiles/OLED.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.obj -MF CMakeFiles/OLED.dir/OLED_2in23.cpp.obj.d -o CMakeFiles/OLED.dir/OLED_2in23.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_2in23.cpp
 
-lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OLED.dir/OLED_2in23.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_2in23.c > CMakeFiles/OLED.dir/OLED_2in23.c.i
+lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OLED.dir/OLED_2in23.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_2in23.cpp > CMakeFiles/OLED.dir/OLED_2in23.cpp.i
 
-lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OLED.dir/OLED_2in23.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_2in23.c -o CMakeFiles/OLED.dir/OLED_2in23.c.s
+lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OLED.dir/OLED_2in23.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_2in23.cpp -o CMakeFiles/OLED.dir/OLED_2in23.cpp.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -188,11 +188,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_ir
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c
@@ -425,11 +425,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_di
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
@@ -466,11 +466,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_op
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
@@ -493,11 +493,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divide
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
@@ -506,11 +506,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
@@ -547,11 +547,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
@@ -560,11 +560,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
@@ -573,11 +573,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
@@ -614,11 +614,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
@@ -641,11 +641,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_op
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
@@ -654,11 +654,11 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standa
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
 
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: lib/OLED/CMakeFiles/OLED.dir/flags.make
 lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
@@ -760,8 +760,8 @@ lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_ad
 
 # Object files for target OLED
 OLED_OBJECTS = \
-"CMakeFiles/OLED.dir/OLED_1in3_c.c.obj" \
-"CMakeFiles/OLED.dir/OLED_2in23.c.obj" \
+"CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj" \
+"CMakeFiles/OLED.dir/OLED_2in23.cpp.obj" \
 "CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -814,8 +814,8 @@ OLED_OBJECTS = \
 # External object files for target OLED
 OLED_EXTERNAL_OBJECTS =
 
-lib/OLED/libOLED.a: lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.obj
-lib/OLED/libOLED.a: lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.obj
+lib/OLED/libOLED.a: lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj
+lib/OLED/libOLED.a: lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.obj
 lib/OLED/libOLED.a: lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 lib/OLED/libOLED.a: lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 lib/OLED/libOLED.a: lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj

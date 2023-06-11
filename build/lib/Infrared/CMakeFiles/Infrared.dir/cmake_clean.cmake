@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Infrared.dir/Infrared.c.obj"
-  "CMakeFiles/Infrared.dir/Infrared.c.obj.d"
+  "CMakeFiles/Infrared.dir/Infrared.cpp.obj"
+  "CMakeFiles/Infrared.dir/Infrared.cpp.obj.d"
   "CMakeFiles/Infrared.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
   "CMakeFiles/Infrared.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d"
   "CMakeFiles/Infrared.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"

@@ -130,221 +130,29 @@ examples/fast:
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/build
 .PHONY : examples/fast
 
-ImageData.obj: ImageData.c.obj
+ImageData.obj: ImageData.cpp.obj
 .PHONY : ImageData.obj
 
 # target to build an object file
-ImageData.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/ImageData.c.obj
-.PHONY : ImageData.c.obj
+ImageData.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/ImageData.cpp.obj
+.PHONY : ImageData.cpp.obj
 
-ImageData.i: ImageData.c.i
+ImageData.i: ImageData.cpp.i
 .PHONY : ImageData.i
 
 # target to preprocess a source file
-ImageData.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/ImageData.c.i
-.PHONY : ImageData.c.i
+ImageData.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/ImageData.cpp.i
+.PHONY : ImageData.cpp.i
 
-ImageData.s: ImageData.c.s
+ImageData.s: ImageData.cpp.s
 .PHONY : ImageData.s
 
 # target to generate assembly for a file
-ImageData.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/ImageData.c.s
-.PHONY : ImageData.c.s
-
-LCD_0in96_test.obj: LCD_0in96_test.c.obj
-.PHONY : LCD_0in96_test.obj
-
-# target to build an object file
-LCD_0in96_test.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_0in96_test.c.obj
-.PHONY : LCD_0in96_test.c.obj
-
-LCD_0in96_test.i: LCD_0in96_test.c.i
-.PHONY : LCD_0in96_test.i
-
-# target to preprocess a source file
-LCD_0in96_test.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_0in96_test.c.i
-.PHONY : LCD_0in96_test.c.i
-
-LCD_0in96_test.s: LCD_0in96_test.c.s
-.PHONY : LCD_0in96_test.s
-
-# target to generate assembly for a file
-LCD_0in96_test.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_0in96_test.c.s
-.PHONY : LCD_0in96_test.c.s
-
-LCD_1in14_test.obj: LCD_1in14_test.c.obj
-.PHONY : LCD_1in14_test.obj
-
-# target to build an object file
-LCD_1in14_test.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in14_test.c.obj
-.PHONY : LCD_1in14_test.c.obj
-
-LCD_1in14_test.i: LCD_1in14_test.c.i
-.PHONY : LCD_1in14_test.i
-
-# target to preprocess a source file
-LCD_1in14_test.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in14_test.c.i
-.PHONY : LCD_1in14_test.c.i
-
-LCD_1in14_test.s: LCD_1in14_test.c.s
-.PHONY : LCD_1in14_test.s
-
-# target to generate assembly for a file
-LCD_1in14_test.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in14_test.c.s
-.PHONY : LCD_1in14_test.c.s
-
-LCD_1in3_test.obj: LCD_1in3_test.c.obj
-.PHONY : LCD_1in3_test.obj
-
-# target to build an object file
-LCD_1in3_test.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in3_test.c.obj
-.PHONY : LCD_1in3_test.c.obj
-
-LCD_1in3_test.i: LCD_1in3_test.c.i
-.PHONY : LCD_1in3_test.i
-
-# target to preprocess a source file
-LCD_1in3_test.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in3_test.c.i
-.PHONY : LCD_1in3_test.c.i
-
-LCD_1in3_test.s: LCD_1in3_test.c.s
-.PHONY : LCD_1in3_test.s
-
-# target to generate assembly for a file
-LCD_1in3_test.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in3_test.c.s
-.PHONY : LCD_1in3_test.c.s
-
-LCD_1in44_test.obj: LCD_1in44_test.c.obj
-.PHONY : LCD_1in44_test.obj
-
-# target to build an object file
-LCD_1in44_test.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in44_test.c.obj
-.PHONY : LCD_1in44_test.c.obj
-
-LCD_1in44_test.i: LCD_1in44_test.c.i
-.PHONY : LCD_1in44_test.i
-
-# target to preprocess a source file
-LCD_1in44_test.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in44_test.c.i
-.PHONY : LCD_1in44_test.c.i
-
-LCD_1in44_test.s: LCD_1in44_test.c.s
-.PHONY : LCD_1in44_test.s
-
-# target to generate assembly for a file
-LCD_1in44_test.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in44_test.c.s
-.PHONY : LCD_1in44_test.c.s
-
-LCD_1in8_test.obj: LCD_1in8_test.c.obj
-.PHONY : LCD_1in8_test.obj
-
-# target to build an object file
-LCD_1in8_test.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in8_test.c.obj
-.PHONY : LCD_1in8_test.c.obj
-
-LCD_1in8_test.i: LCD_1in8_test.c.i
-.PHONY : LCD_1in8_test.i
-
-# target to preprocess a source file
-LCD_1in8_test.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in8_test.c.i
-.PHONY : LCD_1in8_test.c.i
-
-LCD_1in8_test.s: LCD_1in8_test.c.s
-.PHONY : LCD_1in8_test.s
-
-# target to generate assembly for a file
-LCD_1in8_test.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_1in8_test.c.s
-.PHONY : LCD_1in8_test.c.s
-
-LCD_2in_test.obj: LCD_2in_test.c.obj
-.PHONY : LCD_2in_test.obj
-
-# target to build an object file
-LCD_2in_test.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_2in_test.c.obj
-.PHONY : LCD_2in_test.c.obj
-
-LCD_2in_test.i: LCD_2in_test.c.i
-.PHONY : LCD_2in_test.i
-
-# target to preprocess a source file
-LCD_2in_test.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_2in_test.c.i
-.PHONY : LCD_2in_test.c.i
-
-LCD_2in_test.s: LCD_2in_test.c.s
-.PHONY : LCD_2in_test.s
-
-# target to generate assembly for a file
-LCD_2in_test.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/LCD_2in_test.c.s
-.PHONY : LCD_2in_test.c.s
-
-OLED_1in3_C_test.obj: OLED_1in3_C_test.c.obj
-.PHONY : OLED_1in3_C_test.obj
-
-# target to build an object file
-OLED_1in3_C_test.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/OLED_1in3_C_test.c.obj
-.PHONY : OLED_1in3_C_test.c.obj
-
-OLED_1in3_C_test.i: OLED_1in3_C_test.c.i
-.PHONY : OLED_1in3_C_test.i
-
-# target to preprocess a source file
-OLED_1in3_C_test.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/OLED_1in3_C_test.c.i
-.PHONY : OLED_1in3_C_test.c.i
-
-OLED_1in3_C_test.s: OLED_1in3_C_test.c.s
-.PHONY : OLED_1in3_C_test.s
-
-# target to generate assembly for a file
-OLED_1in3_C_test.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/OLED_1in3_C_test.c.s
-.PHONY : OLED_1in3_C_test.c.s
-
-OLED_2in23_test.obj: OLED_2in23_test.c.obj
-.PHONY : OLED_2in23_test.obj
-
-# target to build an object file
-OLED_2in23_test.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/OLED_2in23_test.c.obj
-.PHONY : OLED_2in23_test.c.obj
-
-OLED_2in23_test.i: OLED_2in23_test.c.i
-.PHONY : OLED_2in23_test.i
-
-# target to preprocess a source file
-OLED_2in23_test.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/OLED_2in23_test.c.i
-.PHONY : OLED_2in23_test.c.i
-
-OLED_2in23_test.s: OLED_2in23_test.c.s
-.PHONY : OLED_2in23_test.s
-
-# target to generate assembly for a file
-OLED_2in23_test.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/OLED_2in23_test.c.s
-.PHONY : OLED_2in23_test.c.s
+ImageData.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/ImageData.cpp.s
+.PHONY : ImageData.cpp.s
 
 home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -1334,30 +1142,6 @@ help:
 	@echo "... ImageData.obj"
 	@echo "... ImageData.i"
 	@echo "... ImageData.s"
-	@echo "... LCD_0in96_test.obj"
-	@echo "... LCD_0in96_test.i"
-	@echo "... LCD_0in96_test.s"
-	@echo "... LCD_1in14_test.obj"
-	@echo "... LCD_1in14_test.i"
-	@echo "... LCD_1in14_test.s"
-	@echo "... LCD_1in3_test.obj"
-	@echo "... LCD_1in3_test.i"
-	@echo "... LCD_1in3_test.s"
-	@echo "... LCD_1in44_test.obj"
-	@echo "... LCD_1in44_test.i"
-	@echo "... LCD_1in44_test.s"
-	@echo "... LCD_1in8_test.obj"
-	@echo "... LCD_1in8_test.i"
-	@echo "... LCD_1in8_test.s"
-	@echo "... LCD_2in_test.obj"
-	@echo "... LCD_2in_test.i"
-	@echo "... LCD_2in_test.s"
-	@echo "... OLED_1in3_C_test.obj"
-	@echo "... OLED_1in3_C_test.i"
-	@echo "... OLED_1in3_C_test.s"
-	@echo "... OLED_2in23_test.obj"
-	@echo "... OLED_2in23_test.i"
-	@echo "... OLED_2in23_test.s"
 	@echo "... home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.s"

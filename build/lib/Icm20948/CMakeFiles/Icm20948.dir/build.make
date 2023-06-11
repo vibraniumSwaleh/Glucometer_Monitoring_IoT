@@ -69,19 +69,19 @@ include lib/Icm20948/CMakeFiles/Icm20948.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 
-lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
-lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj: ../lib/Icm20948/icm20948.c
-lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj -MF CMakeFiles/Icm20948.dir/icm20948.c.obj.d -o CMakeFiles/Icm20948.dir/icm20948.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/Icm20948/icm20948.c
+lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
+lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj: ../lib/Icm20948/icm20948.cpp
+lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj -MF CMakeFiles/Icm20948.dir/icm20948.cpp.obj.d -o CMakeFiles/Icm20948.dir/icm20948.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/Icm20948/icm20948.cpp
 
-lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Icm20948.dir/icm20948.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/Icm20948/icm20948.c > CMakeFiles/Icm20948.dir/icm20948.c.i
+lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Icm20948.dir/icm20948.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/Icm20948/icm20948.cpp > CMakeFiles/Icm20948.dir/icm20948.cpp.i
 
-lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Icm20948.dir/icm20948.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/Icm20948/icm20948.c -o CMakeFiles/Icm20948.dir/icm20948.c.s
+lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Icm20948.dir/icm20948.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/Icm20948/icm20948.cpp -o CMakeFiles/Icm20948.dir/icm20948.cpp.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -174,11 +174,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/har
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c
@@ -411,11 +411,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/har
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
@@ -452,11 +452,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
@@ -479,11 +479,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
@@ -492,11 +492,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
@@ -533,11 +533,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
@@ -546,11 +546,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
@@ -559,11 +559,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
@@ -600,11 +600,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
@@ -627,11 +627,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
@@ -640,11 +640,11 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pic
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
 
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: lib/Icm20948/CMakeFiles/Icm20948.dir/flags.make
 lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
@@ -746,7 +746,7 @@ lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/har
 
 # Object files for target Icm20948
 Icm20948_OBJECTS = \
-"CMakeFiles/Icm20948.dir/icm20948.c.obj" \
+"CMakeFiles/Icm20948.dir/icm20948.cpp.obj" \
 "CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -799,7 +799,7 @@ Icm20948_OBJECTS = \
 # External object files for target Icm20948
 Icm20948_EXTERNAL_OBJECTS =
 
-lib/Icm20948/libIcm20948.a: lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj
+lib/Icm20948/libIcm20948.a: lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj
 lib/Icm20948/libIcm20948.a: lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 lib/Icm20948/libIcm20948.a: lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 lib/Icm20948/libIcm20948.a: lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj

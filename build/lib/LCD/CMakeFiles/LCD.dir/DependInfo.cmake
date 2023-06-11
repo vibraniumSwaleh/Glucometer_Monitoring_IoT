@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
+set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
@@ -52,7 +53,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+  "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_NO_FLASH=0"
@@ -110,13 +111,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_0in96.c" "lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in14.c" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in3.c" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in44.c" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in54.c" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in8.c" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_2in.c" "lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d"
@@ -153,6 +147,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_0in96.cpp" "lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in14.cpp" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in3.cpp" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in44.cpp" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in54.cpp" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in8.cpp" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_2in.cpp" "lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

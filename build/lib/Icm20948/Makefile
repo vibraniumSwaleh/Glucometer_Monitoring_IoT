@@ -1106,29 +1106,29 @@ home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Icm20948/CMakeFiles/Icm20948.dir/build.make lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-icm20948.obj: icm20948.c.obj
+icm20948.obj: icm20948.cpp.obj
 .PHONY : icm20948.obj
 
 # target to build an object file
-icm20948.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Icm20948/CMakeFiles/Icm20948.dir/build.make lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj
-.PHONY : icm20948.c.obj
+icm20948.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Icm20948/CMakeFiles/Icm20948.dir/build.make lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj
+.PHONY : icm20948.cpp.obj
 
-icm20948.i: icm20948.c.i
+icm20948.i: icm20948.cpp.i
 .PHONY : icm20948.i
 
 # target to preprocess a source file
-icm20948.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Icm20948/CMakeFiles/Icm20948.dir/build.make lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.i
-.PHONY : icm20948.c.i
+icm20948.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Icm20948/CMakeFiles/Icm20948.dir/build.make lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.i
+.PHONY : icm20948.cpp.i
 
-icm20948.s: icm20948.c.s
+icm20948.s: icm20948.cpp.s
 .PHONY : icm20948.s
 
 # target to generate assembly for a file
-icm20948.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Icm20948/CMakeFiles/Icm20948.dir/build.make lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.s
-.PHONY : icm20948.c.s
+icm20948.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Icm20948/CMakeFiles/Icm20948.dir/build.make lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.s
+.PHONY : icm20948.cpp.s
 
 # Help Target
 help:

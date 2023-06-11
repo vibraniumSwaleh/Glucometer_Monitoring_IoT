@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
+set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
@@ -57,7 +58,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+  "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_NO_FLASH=0"
@@ -74,7 +75,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   ".././lib/Config"
   ".././lib/GUI"
   ".././lib/Icm20948"
-  ".././lib/LCD"
   ".././lib/Infrared"
   ".././lib/OLED"
   "/home/ghost/pico/pico-sdk/src/common/pico_stdlib/include"
@@ -191,14 +191,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/main.c" "CMakeFiles/main.dir/main.c.obj" "gcc" "CMakeFiles/main.dir/main.c.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/OLED_1in3_C_test.cpp" "CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj" "gcc" "CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/ghost/Glucometer_IoT/Pico-code/c/build/examples/CMakeFiles/examples.dir/DependInfo.cmake"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD/CMakeFiles/LCD.dir/DependInfo.cmake"
   "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED/CMakeFiles/OLED.dir/DependInfo.cmake"
   "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Infrared/CMakeFiles/Infrared.dir/DependInfo.cmake"
   "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948/CMakeFiles/Icm20948.dir/DependInfo.cmake"

@@ -130,173 +130,173 @@ LCD/fast:
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/build
 .PHONY : LCD/fast
 
-LCD_0in96.obj: LCD_0in96.c.obj
+LCD_0in96.obj: LCD_0in96.cpp.obj
 .PHONY : LCD_0in96.obj
 
 # target to build an object file
-LCD_0in96.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj
-.PHONY : LCD_0in96.c.obj
+LCD_0in96.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj
+.PHONY : LCD_0in96.cpp.obj
 
-LCD_0in96.i: LCD_0in96.c.i
+LCD_0in96.i: LCD_0in96.cpp.i
 .PHONY : LCD_0in96.i
 
 # target to preprocess a source file
-LCD_0in96.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.i
-.PHONY : LCD_0in96.c.i
+LCD_0in96.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.i
+.PHONY : LCD_0in96.cpp.i
 
-LCD_0in96.s: LCD_0in96.c.s
+LCD_0in96.s: LCD_0in96.cpp.s
 .PHONY : LCD_0in96.s
 
 # target to generate assembly for a file
-LCD_0in96.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.s
-.PHONY : LCD_0in96.c.s
+LCD_0in96.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.s
+.PHONY : LCD_0in96.cpp.s
 
-LCD_1in14.obj: LCD_1in14.c.obj
+LCD_1in14.obj: LCD_1in14.cpp.obj
 .PHONY : LCD_1in14.obj
 
 # target to build an object file
-LCD_1in14.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj
-.PHONY : LCD_1in14.c.obj
+LCD_1in14.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj
+.PHONY : LCD_1in14.cpp.obj
 
-LCD_1in14.i: LCD_1in14.c.i
+LCD_1in14.i: LCD_1in14.cpp.i
 .PHONY : LCD_1in14.i
 
 # target to preprocess a source file
-LCD_1in14.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.i
-.PHONY : LCD_1in14.c.i
+LCD_1in14.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.i
+.PHONY : LCD_1in14.cpp.i
 
-LCD_1in14.s: LCD_1in14.c.s
+LCD_1in14.s: LCD_1in14.cpp.s
 .PHONY : LCD_1in14.s
 
 # target to generate assembly for a file
-LCD_1in14.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.s
-.PHONY : LCD_1in14.c.s
+LCD_1in14.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.s
+.PHONY : LCD_1in14.cpp.s
 
-LCD_1in3.obj: LCD_1in3.c.obj
+LCD_1in3.obj: LCD_1in3.cpp.obj
 .PHONY : LCD_1in3.obj
 
 # target to build an object file
-LCD_1in3.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj
-.PHONY : LCD_1in3.c.obj
+LCD_1in3.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj
+.PHONY : LCD_1in3.cpp.obj
 
-LCD_1in3.i: LCD_1in3.c.i
+LCD_1in3.i: LCD_1in3.cpp.i
 .PHONY : LCD_1in3.i
 
 # target to preprocess a source file
-LCD_1in3.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.i
-.PHONY : LCD_1in3.c.i
+LCD_1in3.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.i
+.PHONY : LCD_1in3.cpp.i
 
-LCD_1in3.s: LCD_1in3.c.s
+LCD_1in3.s: LCD_1in3.cpp.s
 .PHONY : LCD_1in3.s
 
 # target to generate assembly for a file
-LCD_1in3.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.s
-.PHONY : LCD_1in3.c.s
+LCD_1in3.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.s
+.PHONY : LCD_1in3.cpp.s
 
-LCD_1in44.obj: LCD_1in44.c.obj
+LCD_1in44.obj: LCD_1in44.cpp.obj
 .PHONY : LCD_1in44.obj
 
 # target to build an object file
-LCD_1in44.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj
-.PHONY : LCD_1in44.c.obj
+LCD_1in44.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj
+.PHONY : LCD_1in44.cpp.obj
 
-LCD_1in44.i: LCD_1in44.c.i
+LCD_1in44.i: LCD_1in44.cpp.i
 .PHONY : LCD_1in44.i
 
 # target to preprocess a source file
-LCD_1in44.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.i
-.PHONY : LCD_1in44.c.i
+LCD_1in44.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.i
+.PHONY : LCD_1in44.cpp.i
 
-LCD_1in44.s: LCD_1in44.c.s
+LCD_1in44.s: LCD_1in44.cpp.s
 .PHONY : LCD_1in44.s
 
 # target to generate assembly for a file
-LCD_1in44.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.s
-.PHONY : LCD_1in44.c.s
+LCD_1in44.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.s
+.PHONY : LCD_1in44.cpp.s
 
-LCD_1in54.obj: LCD_1in54.c.obj
+LCD_1in54.obj: LCD_1in54.cpp.obj
 .PHONY : LCD_1in54.obj
 
 # target to build an object file
-LCD_1in54.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj
-.PHONY : LCD_1in54.c.obj
+LCD_1in54.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj
+.PHONY : LCD_1in54.cpp.obj
 
-LCD_1in54.i: LCD_1in54.c.i
+LCD_1in54.i: LCD_1in54.cpp.i
 .PHONY : LCD_1in54.i
 
 # target to preprocess a source file
-LCD_1in54.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.i
-.PHONY : LCD_1in54.c.i
+LCD_1in54.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.i
+.PHONY : LCD_1in54.cpp.i
 
-LCD_1in54.s: LCD_1in54.c.s
+LCD_1in54.s: LCD_1in54.cpp.s
 .PHONY : LCD_1in54.s
 
 # target to generate assembly for a file
-LCD_1in54.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.s
-.PHONY : LCD_1in54.c.s
+LCD_1in54.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.s
+.PHONY : LCD_1in54.cpp.s
 
-LCD_1in8.obj: LCD_1in8.c.obj
+LCD_1in8.obj: LCD_1in8.cpp.obj
 .PHONY : LCD_1in8.obj
 
 # target to build an object file
-LCD_1in8.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj
-.PHONY : LCD_1in8.c.obj
+LCD_1in8.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj
+.PHONY : LCD_1in8.cpp.obj
 
-LCD_1in8.i: LCD_1in8.c.i
+LCD_1in8.i: LCD_1in8.cpp.i
 .PHONY : LCD_1in8.i
 
 # target to preprocess a source file
-LCD_1in8.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.i
-.PHONY : LCD_1in8.c.i
+LCD_1in8.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.i
+.PHONY : LCD_1in8.cpp.i
 
-LCD_1in8.s: LCD_1in8.c.s
+LCD_1in8.s: LCD_1in8.cpp.s
 .PHONY : LCD_1in8.s
 
 # target to generate assembly for a file
-LCD_1in8.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.s
-.PHONY : LCD_1in8.c.s
+LCD_1in8.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.s
+.PHONY : LCD_1in8.cpp.s
 
-LCD_2in.obj: LCD_2in.c.obj
+LCD_2in.obj: LCD_2in.cpp.obj
 .PHONY : LCD_2in.obj
 
 # target to build an object file
-LCD_2in.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj
-.PHONY : LCD_2in.c.obj
+LCD_2in.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj
+.PHONY : LCD_2in.cpp.obj
 
-LCD_2in.i: LCD_2in.c.i
+LCD_2in.i: LCD_2in.cpp.i
 .PHONY : LCD_2in.i
 
 # target to preprocess a source file
-LCD_2in.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.i
-.PHONY : LCD_2in.c.i
+LCD_2in.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.i
+.PHONY : LCD_2in.cpp.i
 
-LCD_2in.s: LCD_2in.c.s
+LCD_2in.s: LCD_2in.cpp.s
 .PHONY : LCD_2in.s
 
 # target to generate assembly for a file
-LCD_2in.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.s
-.PHONY : LCD_2in.c.s
+LCD_2in.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.s
+.PHONY : LCD_2in.cpp.s
 
 home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj

@@ -69,19 +69,19 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.c.obj: ../main.c
-CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main.c.obj -MF CMakeFiles/main.dir/main.c.obj.d -o CMakeFiles/main.dir/main.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/main.c
+CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj: ../OLED_1in3_C_test.cpp
+CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj -MF CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj.d -o CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/OLED_1in3_C_test.cpp
 
-CMakeFiles/main.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/main.c > CMakeFiles/main.dir/main.c.i
+CMakeFiles/main.dir/OLED_1in3_C_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/OLED_1in3_C_test.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/OLED_1in3_C_test.cpp > CMakeFiles/main.dir/OLED_1in3_C_test.cpp.i
 
-CMakeFiles/main.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/main.c -o CMakeFiles/main.dir/main.c.s
+CMakeFiles/main.dir/OLED_1in3_C_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/OLED_1in3_C_test.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/OLED_1in3_C_test.cpp -o CMakeFiles/main.dir/OLED_1in3_C_test.cpp.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -174,11 +174,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_han
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c
@@ -411,11 +411,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/div
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
@@ -452,11 +452,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
@@ -479,11 +479,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
@@ -492,11 +492,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_a
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
@@ -533,11 +533,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
@@ -546,11 +546,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
@@ -559,11 +559,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aea
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
@@ -600,11 +600,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
@@ -627,11 +627,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
@@ -640,11 +640,11 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/c
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
 
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
@@ -1082,7 +1082,7 @@ CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.c.obj" \
+"CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj" \
 "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1159,7 +1159,7 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main.elf: CMakeFiles/main.dir/main.c.obj
+main.elf: CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj
 main.elf: CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 main.elf: CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 main.elf: CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1234,7 +1234,6 @@ main.elf: CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i
 main.elf: CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 main.elf: CMakeFiles/main.dir/build.make
 main.elf: examples/libexamples.a
-main.elf: lib/LCD/libLCD.a
 main.elf: lib/OLED/libOLED.a
 main.elf: lib/Infrared/libInfrared.a
 main.elf: lib/Icm20948/libIcm20948.a

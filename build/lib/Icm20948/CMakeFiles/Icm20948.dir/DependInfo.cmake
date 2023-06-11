@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
+set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
@@ -52,7 +53,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+  "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_NO_FLASH=0"
@@ -146,8 +147,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/Icm20948/icm20948.c" "lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj" "gcc" "lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "lib/Icm20948/CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/Icm20948/icm20948.cpp" "lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj" "gcc" "lib/Icm20948/CMakeFiles/Icm20948.dir/icm20948.cpp.obj.d"
   )
 
 # Targets to which this target links.

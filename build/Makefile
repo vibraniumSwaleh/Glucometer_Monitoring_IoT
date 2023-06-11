@@ -311,6 +311,30 @@ examples/fast:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/build
 .PHONY : examples/fast
 
+OLED_1in3_C_test.obj: OLED_1in3_C_test.cpp.obj
+.PHONY : OLED_1in3_C_test.obj
+
+# target to build an object file
+OLED_1in3_C_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj
+.PHONY : OLED_1in3_C_test.cpp.obj
+
+OLED_1in3_C_test.i: OLED_1in3_C_test.cpp.i
+.PHONY : OLED_1in3_C_test.i
+
+# target to preprocess a source file
+OLED_1in3_C_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OLED_1in3_C_test.cpp.i
+.PHONY : OLED_1in3_C_test.cpp.i
+
+OLED_1in3_C_test.s: OLED_1in3_C_test.cpp.s
+.PHONY : OLED_1in3_C_test.s
+
+# target to generate assembly for a file
+OLED_1in3_C_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OLED_1in3_C_test.cpp.s
+.PHONY : OLED_1in3_C_test.cpp.s
+
 home/ghost/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/ghost/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : home/ghost/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1863,30 +1887,6 @@ home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
-.PHONY : main.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1910,6 +1910,9 @@ help:
 	@echo "... bs2_default"
 	@echo "... examples"
 	@echo "... main"
+	@echo "... OLED_1in3_C_test.obj"
+	@echo "... OLED_1in3_C_test.i"
+	@echo "... OLED_1in3_C_test.s"
 	@echo "... home/ghost/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... home/ghost/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/ghost/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2104,9 +2107,6 @@ help:
 	@echo "... home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/ghost/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

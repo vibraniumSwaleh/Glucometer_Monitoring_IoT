@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/home/ghost/Glucometer_IoT/Pico-code/c/build/lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
+set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
@@ -52,7 +53,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+  "PICO_CMAKE_BUILD_TYPE=\"Release\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_NO_FLASH=0"
@@ -110,8 +111,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_1in3_c.c" "lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.c.obj.d"
-  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_2in23.c" "lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d"
@@ -148,6 +147,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_1in3_c.cpp" "lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/OLED_1in3_c.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/lib/OLED/OLED_2in23.cpp" "lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/OLED_2in23.cpp.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "lib/OLED/CMakeFiles/OLED.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

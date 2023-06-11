@@ -130,29 +130,29 @@ Infrared/fast:
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Infrared/CMakeFiles/Infrared.dir/build.make lib/Infrared/CMakeFiles/Infrared.dir/build
 .PHONY : Infrared/fast
 
-Infrared.obj: Infrared.c.obj
+Infrared.obj: Infrared.cpp.obj
 .PHONY : Infrared.obj
 
 # target to build an object file
-Infrared.c.obj:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Infrared/CMakeFiles/Infrared.dir/build.make lib/Infrared/CMakeFiles/Infrared.dir/Infrared.c.obj
-.PHONY : Infrared.c.obj
+Infrared.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Infrared/CMakeFiles/Infrared.dir/build.make lib/Infrared/CMakeFiles/Infrared.dir/Infrared.cpp.obj
+.PHONY : Infrared.cpp.obj
 
-Infrared.i: Infrared.c.i
+Infrared.i: Infrared.cpp.i
 .PHONY : Infrared.i
 
 # target to preprocess a source file
-Infrared.c.i:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Infrared/CMakeFiles/Infrared.dir/build.make lib/Infrared/CMakeFiles/Infrared.dir/Infrared.c.i
-.PHONY : Infrared.c.i
+Infrared.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Infrared/CMakeFiles/Infrared.dir/build.make lib/Infrared/CMakeFiles/Infrared.dir/Infrared.cpp.i
+.PHONY : Infrared.cpp.i
 
-Infrared.s: Infrared.c.s
+Infrared.s: Infrared.cpp.s
 .PHONY : Infrared.s
 
 # target to generate assembly for a file
-Infrared.c.s:
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Infrared/CMakeFiles/Infrared.dir/build.make lib/Infrared/CMakeFiles/Infrared.dir/Infrared.c.s
-.PHONY : Infrared.c.s
+Infrared.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f lib/Infrared/CMakeFiles/Infrared.dir/build.make lib/Infrared/CMakeFiles/Infrared.dir/Infrared.cpp.s
+.PHONY : Infrared.cpp.s
 
 home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj

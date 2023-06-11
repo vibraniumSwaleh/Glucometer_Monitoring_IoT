@@ -84,8 +84,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/Icm20948.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "CMakeFiles/Icm20948.dir/icm20948.c.obj"
-  "CMakeFiles/Icm20948.dir/icm20948.c.obj.d"
+  "CMakeFiles/Icm20948.dir/icm20948.cpp.obj"
+  "CMakeFiles/Icm20948.dir/icm20948.cpp.obj.d"
   "libIcm20948.a"
   "libIcm20948.pdb"
 )

@@ -69,103 +69,103 @@ include lib/LCD/CMakeFiles/LCD.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/LCD/CMakeFiles/LCD.dir/flags.make
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
-lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj: ../lib/LCD/LCD_0in96.c
-lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj -MF CMakeFiles/LCD.dir/LCD_0in96.c.obj.d -o CMakeFiles/LCD.dir/LCD_0in96.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_0in96.c
+lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
+lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj: ../lib/LCD/LCD_0in96.cpp
+lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj -MF CMakeFiles/LCD.dir/LCD_0in96.cpp.obj.d -o CMakeFiles/LCD.dir/LCD_0in96.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_0in96.cpp
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD_0in96.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_0in96.c > CMakeFiles/LCD.dir/LCD_0in96.c.i
+lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LCD.dir/LCD_0in96.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_0in96.cpp > CMakeFiles/LCD.dir/LCD_0in96.cpp.i
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD_0in96.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_0in96.c -o CMakeFiles/LCD.dir/LCD_0in96.c.s
+lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LCD.dir/LCD_0in96.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_0in96.cpp -o CMakeFiles/LCD.dir/LCD_0in96.cpp.s
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj: ../lib/LCD/LCD_1in14.c
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj -MF CMakeFiles/LCD.dir/LCD_1in14.c.obj.d -o CMakeFiles/LCD.dir/LCD_1in14.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in14.c
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj: ../lib/LCD/LCD_1in14.cpp
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj -MF CMakeFiles/LCD.dir/LCD_1in14.cpp.obj.d -o CMakeFiles/LCD.dir/LCD_1in14.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in14.cpp
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD_1in14.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in14.c > CMakeFiles/LCD.dir/LCD_1in14.c.i
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LCD.dir/LCD_1in14.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in14.cpp > CMakeFiles/LCD.dir/LCD_1in14.cpp.i
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD_1in14.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in14.c -o CMakeFiles/LCD.dir/LCD_1in14.c.s
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LCD.dir/LCD_1in14.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in14.cpp -o CMakeFiles/LCD.dir/LCD_1in14.cpp.s
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj: ../lib/LCD/LCD_1in3.c
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj -MF CMakeFiles/LCD.dir/LCD_1in3.c.obj.d -o CMakeFiles/LCD.dir/LCD_1in3.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in3.c
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj: ../lib/LCD/LCD_1in3.cpp
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj -MF CMakeFiles/LCD.dir/LCD_1in3.cpp.obj.d -o CMakeFiles/LCD.dir/LCD_1in3.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in3.cpp
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD_1in3.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in3.c > CMakeFiles/LCD.dir/LCD_1in3.c.i
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LCD.dir/LCD_1in3.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in3.cpp > CMakeFiles/LCD.dir/LCD_1in3.cpp.i
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD_1in3.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in3.c -o CMakeFiles/LCD.dir/LCD_1in3.c.s
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LCD.dir/LCD_1in3.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in3.cpp -o CMakeFiles/LCD.dir/LCD_1in3.cpp.s
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj: ../lib/LCD/LCD_1in44.c
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj -MF CMakeFiles/LCD.dir/LCD_1in44.c.obj.d -o CMakeFiles/LCD.dir/LCD_1in44.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in44.c
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj: ../lib/LCD/LCD_1in44.cpp
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj -MF CMakeFiles/LCD.dir/LCD_1in44.cpp.obj.d -o CMakeFiles/LCD.dir/LCD_1in44.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in44.cpp
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD_1in44.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in44.c > CMakeFiles/LCD.dir/LCD_1in44.c.i
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LCD.dir/LCD_1in44.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in44.cpp > CMakeFiles/LCD.dir/LCD_1in44.cpp.i
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD_1in44.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in44.c -o CMakeFiles/LCD.dir/LCD_1in44.c.s
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LCD.dir/LCD_1in44.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in44.cpp -o CMakeFiles/LCD.dir/LCD_1in44.cpp.s
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj: ../lib/LCD/LCD_1in54.c
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj -MF CMakeFiles/LCD.dir/LCD_1in54.c.obj.d -o CMakeFiles/LCD.dir/LCD_1in54.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in54.c
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj: ../lib/LCD/LCD_1in54.cpp
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj -MF CMakeFiles/LCD.dir/LCD_1in54.cpp.obj.d -o CMakeFiles/LCD.dir/LCD_1in54.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in54.cpp
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD_1in54.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in54.c > CMakeFiles/LCD.dir/LCD_1in54.c.i
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LCD.dir/LCD_1in54.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in54.cpp > CMakeFiles/LCD.dir/LCD_1in54.cpp.i
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD_1in54.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in54.c -o CMakeFiles/LCD.dir/LCD_1in54.c.s
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LCD.dir/LCD_1in54.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in54.cpp -o CMakeFiles/LCD.dir/LCD_1in54.cpp.s
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj: ../lib/LCD/LCD_1in8.c
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj -MF CMakeFiles/LCD.dir/LCD_1in8.c.obj.d -o CMakeFiles/LCD.dir/LCD_1in8.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in8.c
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj: ../lib/LCD/LCD_1in8.cpp
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj -MF CMakeFiles/LCD.dir/LCD_1in8.cpp.obj.d -o CMakeFiles/LCD.dir/LCD_1in8.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in8.cpp
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD_1in8.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in8.c > CMakeFiles/LCD.dir/LCD_1in8.c.i
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LCD.dir/LCD_1in8.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in8.cpp > CMakeFiles/LCD.dir/LCD_1in8.cpp.i
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD_1in8.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in8.c -o CMakeFiles/LCD.dir/LCD_1in8.c.s
+lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LCD.dir/LCD_1in8.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_1in8.cpp -o CMakeFiles/LCD.dir/LCD_1in8.cpp.s
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
-lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj: ../lib/LCD/LCD_2in.c
-lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj -MF CMakeFiles/LCD.dir/LCD_2in.c.obj.d -o CMakeFiles/LCD.dir/LCD_2in.c.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_2in.c
+lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
+lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj: ../lib/LCD/LCD_2in.cpp
+lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj -MF CMakeFiles/LCD.dir/LCD_2in.cpp.obj.d -o CMakeFiles/LCD.dir/LCD_2in.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_2in.cpp
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD_2in.c.i"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_2in.c > CMakeFiles/LCD.dir/LCD_2in.c.i
+lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LCD.dir/LCD_2in.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_2in.cpp > CMakeFiles/LCD.dir/LCD_2in.cpp.i
 
-lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD_2in.c.s"
-	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_2in.c -o CMakeFiles/LCD.dir/LCD_2in.c.s
+lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LCD.dir/LCD_2in.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/lib/LCD/LCD_2in.cpp -o CMakeFiles/LCD.dir/LCD_2in.cpp.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -258,11 +258,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c
@@ -495,11 +495,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divi
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
@@ -536,11 +536,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
@@ -563,11 +563,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
@@ -576,11 +576,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/d
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
@@ -617,11 +617,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/d
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
@@ -630,11 +630,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_op
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
@@ -643,11 +643,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/fl
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
@@ -684,11 +684,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/fl
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
@@ -711,11 +711,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
@@ -724,11 +724,11 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/lib/LCD && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
 
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: lib/LCD/CMakeFiles/LCD.dir/flags.make
 lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
@@ -830,13 +830,13 @@ lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/
 
 # Object files for target LCD
 LCD_OBJECTS = \
-"CMakeFiles/LCD.dir/LCD_0in96.c.obj" \
-"CMakeFiles/LCD.dir/LCD_1in14.c.obj" \
-"CMakeFiles/LCD.dir/LCD_1in3.c.obj" \
-"CMakeFiles/LCD.dir/LCD_1in44.c.obj" \
-"CMakeFiles/LCD.dir/LCD_1in54.c.obj" \
-"CMakeFiles/LCD.dir/LCD_1in8.c.obj" \
-"CMakeFiles/LCD.dir/LCD_2in.c.obj" \
+"CMakeFiles/LCD.dir/LCD_0in96.cpp.obj" \
+"CMakeFiles/LCD.dir/LCD_1in14.cpp.obj" \
+"CMakeFiles/LCD.dir/LCD_1in3.cpp.obj" \
+"CMakeFiles/LCD.dir/LCD_1in44.cpp.obj" \
+"CMakeFiles/LCD.dir/LCD_1in54.cpp.obj" \
+"CMakeFiles/LCD.dir/LCD_1in8.cpp.obj" \
+"CMakeFiles/LCD.dir/LCD_2in.cpp.obj" \
 "CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -889,13 +889,13 @@ LCD_OBJECTS = \
 # External object files for target LCD
 LCD_EXTERNAL_OBJECTS =
 
-lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.c.obj
-lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.c.obj
-lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.c.obj
-lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.c.obj
-lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.c.obj
-lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.c.obj
-lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_2in.c.obj
+lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_0in96.cpp.obj
+lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in14.cpp.obj
+lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in3.cpp.obj
+lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in44.cpp.obj
+lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in54.cpp.obj
+lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_1in8.cpp.obj
+lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/LCD_2in.cpp.obj
 lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 lib/LCD/libLCD.a: lib/LCD/CMakeFiles/LCD.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
