@@ -154,6 +154,30 @@ ImageData.cpp.s:
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/ImageData.cpp.s
 .PHONY : ImageData.cpp.s
 
+Menu.obj: Menu.cpp.obj
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
@@ -1142,6 +1166,9 @@ help:
 	@echo "... ImageData.obj"
 	@echo "... ImageData.i"
 	@echo "... ImageData.s"
+	@echo "... Menu.obj"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
 	@echo "... home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.s"

@@ -53,7 +53,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Release\""
+  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"
   "PICO_NO_FLASH=0"
@@ -152,6 +152,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/home/ghost/Glucometer_IoT/Pico-code/c/examples/ImageData.cpp" "examples/CMakeFiles/examples.dir/ImageData.cpp.obj" "gcc" "examples/CMakeFiles/examples.dir/ImageData.cpp.obj.d"
+  "/home/ghost/Glucometer_IoT/Pico-code/c/examples/Menu.cpp" "examples/CMakeFiles/examples.dir/Menu.cpp.obj" "gcc" "examples/CMakeFiles/examples.dir/Menu.cpp.obj.d"
   "/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

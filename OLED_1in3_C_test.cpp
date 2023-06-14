@@ -31,6 +31,7 @@
 #include "OLED_1in3_c.h"
 #include "ImageData.h"
 #include "GUI_Paint.h"
+#include "Menu.hpp"
 
 const int NUM_MENU_ITEMS = 2;
 int selectedMenuItem = 0;
@@ -78,36 +79,24 @@ int main(void)
 
     Paint_Clear(BLACK);
 
-    Paint_DrawString_EN(4, 19, "Glucose", &Font12, WHITE, BLACK);
-    Paint_DrawString_EN(57, 19, "Monitoring", &Font12, WHITE, BLACK);
-    Paint_DrawString_EN(43, 34, "System", &Font12, WHITE, BLACK);
+    Welcome_Msg_0 m0 = Welcome_Msg_0("Glucose", "Monitoring", "System");
+    m0.Display_Message();
+
     OLED_1in3_C_Display(BlackImage);
     DEV_Delay_ms(1000);
 
     Paint_Clear(BLACK);
 
-    Paint_DrawString_EN(1, 1, "By:", &Font12, WHITE, BLACK);
-    Paint_DrawString_EN(9, 13, "Swaleh Hussein", &Font12, WHITE, BLACK);
-    Paint_DrawString_EN(9, 25, "MCTY | MSc. | IoT", &Font12, WHITE, BLACK);
-    Paint_DrawString_EN(9, 37, "DCU Student No:", &Font12, WHITE, BLACK);
-    Paint_DrawString_EN(9, 49, "21270106", &Font12, WHITE, BLACK);
+    Welcome_Msg_1 m1 = Welcome_Msg_1("By:", "Swaleh Hussein", "MCTY | MSc. | IoT", "DCU Student No:", "21270106");
+    m1.Display_Message();
+
     OLED_1in3_C_Display(BlackImage);
     DEV_Delay_ms(1000);
 
     Paint_Clear(BLACK);
 
-    Paint_DrawString_EN(8, 26, "Device Init", &Font12, WHITE, BLACK);
-    OLED_1in3_C_Display(BlackImage);
-    DEV_Delay_ms(500);
-    Paint_DrawPoint(90, 34, WHITE, DOT_PIXEL_1X1, DOT_STYLE_DFT);
-    OLED_1in3_C_Display(BlackImage);
-    DEV_Delay_ms(500);
-    Paint_DrawPoint(94, 34, WHITE, DOT_PIXEL_1X1, DOT_STYLE_DFT);
-    OLED_1in3_C_Display(BlackImage);
-    DEV_Delay_ms(500);
-    Paint_DrawPoint(98, 34, WHITE, DOT_PIXEL_1X1, DOT_STYLE_DFT);
-    OLED_1in3_C_Display(BlackImage);
-    DEV_Delay_ms(500);
+    Welcome_Msg_2 m2 = Welcome_Msg_2("Device Init", BlackImage);
+    m2.Display_Message();
 
     Paint_Clear(BLACK);
 

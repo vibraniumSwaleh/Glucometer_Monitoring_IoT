@@ -83,10 +83,24 @@ examples/CMakeFiles/examples.dir/ImageData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/examples.dir/ImageData.cpp.s"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/examples/ImageData.cpp -o CMakeFiles/examples.dir/ImageData.cpp.s
 
+examples/CMakeFiles/examples.dir/Menu.cpp.obj: examples/CMakeFiles/examples.dir/flags.make
+examples/CMakeFiles/examples.dir/Menu.cpp.obj: ../examples/Menu.cpp
+examples/CMakeFiles/examples.dir/Menu.cpp.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/examples.dir/Menu.cpp.obj"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/Menu.cpp.obj -MF CMakeFiles/examples.dir/Menu.cpp.obj.d -o CMakeFiles/examples.dir/Menu.cpp.obj -c /home/ghost/Glucometer_IoT/Pico-code/c/examples/Menu.cpp
+
+examples/CMakeFiles/examples.dir/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/examples.dir/Menu.cpp.i"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ghost/Glucometer_IoT/Pico-code/c/examples/Menu.cpp > CMakeFiles/examples.dir/Menu.cpp.i
+
+examples/CMakeFiles/examples.dir/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/examples.dir/Menu.cpp.s"
+	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ghost/Glucometer_IoT/Pico-code/c/examples/Menu.cpp -o CMakeFiles/examples.dir/Menu.cpp.s
+
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -100,7 +114,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_st
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -114,7 +128,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -128,7 +142,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_pl
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -142,7 +156,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -156,7 +170,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -169,7 +183,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -183,7 +197,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -197,7 +211,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/s
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -211,7 +225,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/l
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -225,7 +239,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/m
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -239,7 +253,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_time/time.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_time/time.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -253,7 +267,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/t
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -267,7 +281,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_time/t
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -281,7 +295,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -295,7 +309,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/d
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -309,7 +323,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/p
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/ghost/pico/pico-sdk/src/common/pico_util/queue.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/ghost/pico/pico-sdk/src/common/pico_util/queue.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -323,7 +337,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_util/q
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -337,7 +351,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -351,7 +365,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -365,7 +379,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -379,7 +393,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -393,7 +407,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -406,7 +420,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -420,7 +434,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -434,7 +448,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_ru
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -447,7 +461,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_pr
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -461,7 +475,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bi
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -474,7 +488,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_bo
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -487,7 +501,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_di
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -501,7 +515,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_do
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -515,7 +529,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_do
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -528,7 +542,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_do
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -541,7 +555,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_do
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -554,7 +568,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_in
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -568,7 +582,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_fl
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -582,7 +596,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_fl
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -595,7 +609,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_fl
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -609,7 +623,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_fl
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -622,7 +636,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_ma
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -635,7 +649,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_me
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -649,7 +663,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_st
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -663,7 +677,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_st
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -677,7 +691,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_st
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -691,7 +705,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_st
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -705,7 +719,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_st
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -719,7 +733,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -733,7 +747,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: examples/CMakeFiles/examples.dir/flags.make
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: examples/CMakeFiles/examples.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -747,6 +761,7 @@ examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardwar
 # Object files for target examples
 examples_OBJECTS = \
 "CMakeFiles/examples.dir/ImageData.cpp.obj" \
+"CMakeFiles/examples.dir/Menu.cpp.obj" \
 "CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -800,6 +815,7 @@ examples_OBJECTS = \
 examples_EXTERNAL_OBJECTS =
 
 examples/libexamples.a: examples/CMakeFiles/examples.dir/ImageData.cpp.obj
+examples/libexamples.a: examples/CMakeFiles/examples.dir/Menu.cpp.obj
 examples/libexamples.a: examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 examples/libexamples.a: examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 examples/libexamples.a: examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -850,7 +866,7 @@ examples/libexamples.a: examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sd
 examples/libexamples.a: examples/CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 examples/libexamples.a: examples/CMakeFiles/examples.dir/build.make
 examples/libexamples.a: examples/CMakeFiles/examples.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX static library libexamples.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ghost/Glucometer_IoT/Pico-code/c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX static library libexamples.a"
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/examples.dir/cmake_clean_target.cmake
 	cd /home/ghost/Glucometer_IoT/Pico-code/c/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/examples.dir/link.txt --verbose=$(VERBOSE)
 

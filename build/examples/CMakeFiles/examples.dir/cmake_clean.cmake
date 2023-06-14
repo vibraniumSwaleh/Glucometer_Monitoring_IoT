@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/examples.dir/ImageData.cpp.obj"
   "CMakeFiles/examples.dir/ImageData.cpp.obj.d"
+  "CMakeFiles/examples.dir/Menu.cpp.obj"
+  "CMakeFiles/examples.dir/Menu.cpp.obj.d"
   "CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
   "CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d"
   "CMakeFiles/examples.dir/home/ghost/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"

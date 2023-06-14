@@ -166,4 +166,5 @@ CMakeFiles/main.dir/OLED_1in3_C_test.cpp.obj: \
  /home/ghost/Glucometer_IoT/Pico-code/c/ImageData.h \
  /home/ghost/Glucometer_IoT/Pico-code/c/./lib/Config/Debug.h \
  /home/ghost/Glucometer_IoT/Pico-code/c/./lib/Infrared/Infrared.h \
- /home/ghost/Glucometer_IoT/Pico-code/c/./lib/OLED/OLED_1in3_c.h
+ /home/ghost/Glucometer_IoT/Pico-code/c/./lib/OLED/OLED_1in3_c.h \
+ /home/ghost/Glucometer_IoT/Pico-code/c/examples/Menu.hpp
