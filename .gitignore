@@ -1,2 +1,4 @@
 pico_sdk_import.cmake
 uf2/
+c_cpp_properties.json
+settings.json
