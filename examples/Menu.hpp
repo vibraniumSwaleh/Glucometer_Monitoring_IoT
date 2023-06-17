@@ -41,5 +41,18 @@ public:
     ~Welcome_Msg_2();
 };
 
+class Menu_0
+{
+private:
+    std::string menu_0_1;
+    std::string menu_0_2;
+    std::string menu_0_3;
+    const unsigned char	*Graphicx_0[2];
+    
+public:
+    Menu_0(const std::string &menu0_1, const std::string &menu0_2, const std::string &menu0_3, const unsigned char *Graphicx_Array_0[2]);
+    void Display_Menu();
+    ~Menu_0();
+};
 
 #endif

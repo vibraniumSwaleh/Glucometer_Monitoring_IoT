@@ -32,6 +32,8 @@
 #include "ImageData.h"
 #include "GUI_Paint.h"
 #include "Menu.hpp"
+// BLE
+
 
 const int NUM_MENU_ITEMS = 2;
 int selectedMenuItem = 0;
@@ -108,14 +110,9 @@ int main(void)
 
     int Items[2][2] = {{14, 37}, {40, 62}};
 
-    Paint_DrawString_EN(1, 1, "Main menu:", &Font12, WHITE, BLACK);
-    Paint_DrawLine(0, 12, 128, 12, WHITE, DOT_PIXEL_1X1, LINE_STYLE_SOLID);
-
-    Paint_DrawString_EN(26, 21, "Pair Bluetooth", &Font12, WHITE, BLACK);
-    Paint_BmpWindows(5, 16, Graphicx[0], 15, 21);
-
-    Paint_DrawString_EN(26, 46, "Dashboard", &Font12, WHITE, BLACK);
-    Paint_BmpWindows(2, 42, Graphicx[1], 21, 20);
+    const unsigned char *graphicArray[2] = { Graphicx[0], Graphicx[1]};
+    Menu_0 menu0 = Menu_0("Main menu:", "Pair Bluetooth", "Dashboard", graphicArray);
+    menu0.Display_Menu();
 
     OLED_1in3_C_Display(BlackImage);
 

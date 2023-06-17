@@ -38,3 +38,17 @@ void Welcome_Msg_2::Display_Message(){
     OLED_1in3_C_Display(BImage_2_1);
     DEV_Delay_ms(500);
 }
+
+Menu_0::Menu_0(const std::string &menu0_1, const std::string &menu0_2, const std::string &menu0_3, const unsigned char *Graphicx_Array_0[2])
+:menu_0_1(menu0_1),menu_0_2(menu0_1), menu_0_3(menu0_3), Graphicx_0{Graphicx_Array_0[0], Graphicx_Array_0[1]}{}
+void Menu_0::Display_Menu(){
+    Paint_DrawString_EN(1, 1, menu_0_1.c_str(), &Font12, WHITE, BLACK);
+    Paint_DrawLine(0, 12, 128, 12, WHITE, DOT_PIXEL_1X1, LINE_STYLE_SOLID);
+
+    Paint_DrawString_EN(26, 21, menu_0_2.c_str(), &Font12, WHITE, BLACK);
+    Paint_BmpWindows(5, 16, Graphicx[0], 15, 21);
+
+    Paint_DrawString_EN(26, 46, menu_0_3.c_str(), &Font12, WHITE, BLACK);
+    Paint_BmpWindows(2, 42, Graphicx[1], 21, 20);
+};
+
